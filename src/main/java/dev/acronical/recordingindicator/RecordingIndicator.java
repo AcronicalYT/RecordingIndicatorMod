@@ -12,5 +12,7 @@ public class RecordingIndicator implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("Recording Indicator initialised");
+        LOGGER.info("The server-side component of this mod is currently under development");
+        LOGGER.info("A spigot plugin is available for server-side functionality: https://modrinth.com/plugin/recording-indicator/");
     }
 }

@@ -5,7 +5,11 @@
 
   "name": "RecordingIndicator",
   "description": "A companion mod/server-side alternative for my recording indicator plugin",
-  "authors": ["Acronical"],
+  "authors": [
+    {
+      "name": "Acronical"
+    }
+  ],
   "contact": {
     "email": "acronicalbusiness@gmail.com",
     "homepage": "https://acronical.is-a.dev",
@@ -24,7 +28,20 @@
 
   "depends": {
     "fabricloader": ">=${loader_version}",
+    "fabric-networking-api-v1": "*",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://www.discord.gg/ZCaXH9Qhjs",
+        "modmenu.kofi": "https://www.ko-fi.com/acronical",
+        "modmenu.donate": "https://www.ko-fi.com/acronical",
+        "modmenu.modrinth": "https://modrinth.com/mod/recordingindicator",
+        "modmenu.github_releases": "https://www.github.com/AcronicalYT/RecordingIndicatorMod/releases"
+      }
+    }
   }
 }
