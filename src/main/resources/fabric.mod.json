@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "recordingindicator",
+  "version": "${version}",
+
+  "name": "RecordingIndicator",
+  "description": "A companion mod/server-side alternative for my recording indicator plugin",
+  "authors": ["Acronical"],
+  "contact": {
+    "email": "acronicalbusiness@gmail.com",
+    "homepage": "https://acronical.is-a.dev",
+    "issues": "https://www.github.com/AcronicalYT/RecordingIndicatorMod/issues",
+    "sources": "https://www.github.com/AcronicalYT/RecordingIndicatorMod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/recordingindicator/icon.jpg",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": ["dev.acronical.recordingindicator.client.RecordingIndicatorClient"],
+    "main": ["dev.acronical.recordingindicator.RecordingIndicator"]
+  },
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
